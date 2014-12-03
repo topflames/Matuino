@@ -42,13 +42,13 @@ void loop()
        if (beat>sample)
        {
        digitalWrite(sendb,HIGH);
-       delay(25);
+       delay(20);
        digitalWrite(sendb,LOW);
        }
        else
        {
        digitalWrite(7,LOW);
        }
-       delay(50);
+       delay(20);
     }
 }
