@@ -1,6 +1,7 @@
-//
-//  main.cpp
-//  Random_Prog
+//  Arduino Visulize
+//  An Arduino based matrix display program
+//  Uses shift regiesters for the output
+//  Gets input from a second Arduino as for when to change the animation
 //
 //  Created by Alex Hornford on 2014-10-24.
 //  Copyright (c) 2014 Flaimion. All rights reserved.
