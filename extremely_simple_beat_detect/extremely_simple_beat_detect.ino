@@ -5,7 +5,7 @@
 //  Outputs beat to [sendb]=HIGH.
  
 const int sampleWindow = 5; // Sample window width in mS (50 mS = 20Hz)
-const int beatWindow = 50;
+const int beatWindow = 25;
 unsigned int sample;
 unsigned int beat;
 const int sendb = 7;
@@ -42,13 +42,13 @@ void loop()
        if (beat>sample)
        {
        digitalWrite(sendb,HIGH);
-       delay(20);
+       delay(10);
        digitalWrite(sendb,LOW);
        }
        else
        {
        digitalWrite(7,LOW);
        }
-       delay(20);
+       delay(5);
     }
 }
